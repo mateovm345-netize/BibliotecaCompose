@@ -1,5 +1,5 @@
 
-package com.sena.bibliotecacompose
+package com.sena.bibliotecacompose.ui.screen
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -20,6 +20,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import com.sena.bibliotecacompose.Libro
 
 @Composable
 fun DetalleLibroScreen(
@@ -111,4 +112,3 @@ fun DetalleLibroScreen(
         }
     }
 }
-

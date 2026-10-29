@@ -1,4 +1,5 @@
 
+
 package com.sena.bibliotecacompose
 
 import android.os.Bundle
@@ -25,6 +26,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import com.sena.bibliotecacompose.ui.screen.CatalogoScreen
+import com.sena.bibliotecacompose.ui.screen.DetalleLibroScreen
+import com.sena.bibliotecacompose.ui.screen.ReservasScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
